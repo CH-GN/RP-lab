@@ -1,0 +1,12 @@
+fn scope_and_shadowing() {
+    let x = 5;
+    {
+        let x = 10; // Shadowing occurs here
+        println!("Inside scope, x: {}", x);
+    }
+    println!("Outside scope, x: {}", x);
+}
+
+fn main() {
+    scope_and_shadowing();
+}
