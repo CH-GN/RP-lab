@@ -1,0 +1,9 @@
+fn print_first_10_numbers() {
+    for i in 1..=10 {
+        println!("{}", i);
+    }
+}
+
+fn main() {
+    print_first_10_numbers();
+}
