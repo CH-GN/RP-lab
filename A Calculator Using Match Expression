@@ -1,0 +1,17 @@
+fn calculator(operator: char, num1: i32, num2: i32) -> i32 {
+    match operator {
+        '+' => num1 + num2,
+        '-' => num1 - num2,
+        '*' => num1 * num2,
+        '/' => num1 / num2,
+        _ => {
+            println!("Invalid operator");
+            0
+        }
+    }
+}
+
+fn main() {
+    let result = calculator('+', 5, 3);
+    println!("Result: {}", result);
+}
