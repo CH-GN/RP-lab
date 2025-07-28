@@ -1,0 +1,12 @@
+fn odd_or_even(num: i32) {
+    if num % 2 == 0 {
+        println!("{} is even.", num);
+    } else {
+        println!("{} is odd.", num);
+    }
+}
+
+fn main() {
+    odd_or_even(4);
+    odd_or_even(7);
+}
