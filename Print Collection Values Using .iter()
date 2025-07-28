@@ -1,0 +1,10 @@
+fn print_collection_values() {
+    let nums = vec![10, 20, 30, 40, 50];
+    for num in nums.iter() {
+        println!("Value: {}", num);
+    }
+}
+
+fn main() {
+    print_collection_values();
+}
