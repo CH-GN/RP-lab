@@ -1,0 +1,8 @@
+fn pattern_with_placeholders() {
+    let (x, _, z) = (1, 2, 3);
+    println!("x: {}, z: {}", x, z);
+}
+
+fn main() {
+    pattern_with_placeholders();
+}
