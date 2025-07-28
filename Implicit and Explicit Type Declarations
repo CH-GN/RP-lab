@@ -1,0 +1,13 @@
+fn type_declarations() {
+    // Implicit Type
+    let x = 5; // inferred as i32
+
+    // Explicit Type
+    let y: f64 = 3.14;
+
+    println!("x: {}, y: {}", x, y);
+}
+
+fn main() {
+    type_declarations();
+}
