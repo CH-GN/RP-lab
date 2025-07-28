@@ -1,0 +1,8 @@
+fn display_output() {
+    print!("Hello, world! ");
+    print!("This is displayed using print!");
+}
+
+fn main() {
+    display_output();
+}
