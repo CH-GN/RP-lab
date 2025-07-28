@@ -1,0 +1,11 @@
+fn borrow_and_dereference() {
+    let s1 = String::from("Hello");
+    let s2 = &s1; // Borrowing
+
+    println!("s1: {}", s1); // Access original
+    println!("s2: {}", s2); // Access borrowed reference
+}
+
+fn main() {
+    borrow_and_dereference();
+}
