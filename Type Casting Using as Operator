@@ -1,0 +1,10 @@
+fn type_casting() {
+    let x: i32 = 10;
+    let y: f64 = x as f64; // Casting i32 to f64
+
+    println!("x: {}, y: {}", x, y);
+}
+
+fn main() {
+    type_casting();
+}
