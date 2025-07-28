@@ -1,0 +1,11 @@
+fn count_iterations_until_condition() {
+    let mut count = 0;
+    while count < 10 {
+        println!("Iteration: {}", count);
+        count += 1;
+    }
+}
+
+fn main() {
+    count_iterations_until_condition();
+}
